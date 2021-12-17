@@ -1,5 +1,5 @@
 # Terziyan Artur
- ## My contacts for connect
+## My contacts for connect
   * GitHub: Ararad1962
   * Discord: Artur Terziyan
   * Email: ararad@rambler.ru
@@ -31,15 +31,15 @@ function toJadenCase(str) {
 };
  console.log(toJadenCase(str)); 
  ```
- ## Experience
+## Experience
   * Learn.JavaScript.ru;
   * Code-basics.com;
   * MDN Web Docs;
   * Studying at Rolling Scopes School;
 
- ## Education
+## Education
  2000-2005 Moskow's State of Social University, student.
    * System ingineer by profession
 
- ## English
+## English
  My English level is A1-A2 at the moment. But I hope to raise it above A2 in the near future. I study on online platforms and read articles in English.
