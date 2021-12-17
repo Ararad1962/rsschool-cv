@@ -1,14 +1,18 @@
 # Terziyan Artur
-## My contacts for connect
+
+## My contacts for communication
   * GitHub: Ararad1962
   * Discord: Artur Terziyan
   * Email: ararad@rambler.ru
+
 ## About Me (Summary)
 I am a system administrator. For the last 8 years I have been serving servers and workstations that work with data in industrial automation systems.
 The university programmed in Delphi, but after university I didn't do programming.
+
 ## Skills
  * HTML+CSS (the basics);
  * JavaScript (the basics);
+
 ## Code examples
 ``` let str ="How can mirrors be real if our eyes aren't real"
 
@@ -31,6 +35,7 @@ function toJadenCase(str) {
 };
  console.log(toJadenCase(str)); 
  ```
+
 ## Experience
   * Learn.JavaScript.ru;
   * Code-basics.com;
