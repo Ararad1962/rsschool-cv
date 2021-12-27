@@ -1,7 +1,28 @@
-.header {
-   grid-area: h;
-   background-color:green;
- }
- .header img {
-   width: 60px;
- }
+@font-face {
+  font-family: 'Spectral';
+  src: url(../assets/fonts/Spectral/Spectral-Bold.ttf);
+}
+@font-face {
+  font-family: 'Spectral';
+  src: url(../assets/fonts/Spectral/Spectral-BoldItalic.ttf);
+}
+@font-face {
+  font-family: 'Spectral';
+  src: url(../assets/fonts/Spectral/Spectral-Italic.ttf);
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url(../assets/fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  src: url(../assets/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: 'Spectral';
+}
+
+* {
+  box-sizing: border-box;
+}
