@@ -32,16 +32,18 @@
       </div>
    </header>
    <main>
-      <div class="container">
+
+      <div class="container main-container">
          <section class="section">
             <h1 class="main-title">
-               Terziyan Artur (<a href="https://github.com/Ararad1962">Ararad1962</a>)
+               Terziyan Artur
             </h1>
          </section>
+         <section class="section"></section>
          <section class="section" id="Contacts">
             <h2 class="section-title">My contacts for communication</h2>
             <ul>
-               <li>GitHub: Ararad1962</li>
+               <li>GitHub: <a href="https://github.com/Ararad1962">Ararad1962</a></li>
                <li>Discord: Artur Terziyan</li>
                <li>Email: ararad@rambler.ru</li>
             </ulstyle=>
@@ -50,11 +52,12 @@
             <h2 class="section-title">About Me (Summary)</h2>
             <p>
                I am a system administrator. <br>
-               For the last 8 years I have been serving servers and workstations that work
+               For the last 8 years I have been serving servers and workstations<br> that work
                with data in industrial automation systems. <br>
-               I programmed in Delphi at the University, but after that I
-               didn’t programm. <br>
-               But i want to become programmer now. And i'm learning at the Rolling Scope School for this.
+               I programmed in Delphi at the University, <br>
+               but after that I didn’t programm. <br>
+               But i want to become programmer now. <br>
+               And i'm learning at the Rolling Scope School for this.
             </pstyle=>
          </section>
          <section class="section" id="Skills">
@@ -66,30 +69,29 @@
          </section>
          <section class="section" id="Code">
             <h2 class="section-title">Code examples</h2>
-            <pre>
-                  let str ="How can mirrors be real if our eyes aren't real"
+            <pre class="code">
+      let str ="How can mirrors be real if our eyes aren't real"
 
-                  function toJadenCase(str) {
-                     let arrayOfString = str.split(" ")
+      function toJadenCase(str) {
+         let arrayOfString = str.split(" ")
       
-                     let word;
-                     let newWord;
+         let word;
+         let newWord;
       
-                     for (let i = 0; i < arrayOfString.length; i++) {
-                        word = arrayOfString[i];
-                        word = word.trim();
-                        if (!word) return  word ;
-                           newWord = word[0].toUpperCase() + word.slice(1);
-                           arrayOfString[i] = newWord;
-                        };
+         for (let i = 0; i < arrayOfString.length; i++) {
+            word = arrayOfString[i];
+            word = word.trim();
+            if (!word) return  word ;
+               newWord = word[0].toUpperCase() + word.slice(1);
+               arrayOfString[i] = newWord;
+            };
 
-                     let newStr = arrayOfString.join(" ");
+            let newStr = arrayOfString.join(" ");
       
-                     return newStr;
-                  };
-                  console.log(toJadenCase(str));
+            return newStr;
+         };
+         console.log(toJadenCase(str));
                </pre>
-            </p>
          </section>
          <section class="section" id="Experience">
             <h2 class="section-title">Experience</h2>
