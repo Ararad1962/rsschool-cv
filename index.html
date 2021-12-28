@@ -1,32 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./css/style.css" >
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="./css/style.css">
    <link rel="icon" href="https://rs.school/images/rs_school_js.svg">
    <title>cv</title>
 </head>
+
 <body>
    <header>
       <div class="container">
          <nav class="nav">
             <ul class="nav-list">
-               <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
-               <li class="nav-item"><a href="" class="nav-link">About Me</a></li>
-               <li class="nav-item"><a href="" class="nav-link">Skills</a></li>
-               <li class="nav-item"><a href="" class="nav-link">Code Examples</a></li>
-               <li class="nav-item"><a href="" class="nav-link">Experience</a></li>
-               <li class="nav-item"><a href="" class="nav-link">Education</a></li>
-               <li class="nav-item"><a href="" class="nav-link">English</a></li>
+               <li class="nav-item"><a href="Contacts" class="nav-link">Contacts</a></li>
+               <li class="nav-item"><a href="#About" class="nav-link">About</a></li>
+               <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+               <li class="nav-item"><a href="#Code" class="nav-link">Code</a></li>
+               <li class="nav-item"><a href="#Experience" class="nav-link">Experience</a></li>
+               <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+               <li class="nav-item"><a href="#English" class="nav-link">English</a></li>
             </ul>
          </nav>
       </div>
    </header>
    <main>
       <div class="container">
+         <section class="section">
+            <h1 class="main-title">
+               Terziyan Artur (<a href="https://github.com/Ararad1962">Ararad1962</a>)
+            </h1>
+         </section>
+         <section class="section" id="Contacts">
+            <h2 class="section-title">My contacts for communication</h2>
+            <ul>
+               <li>GitHub: Ararad1962</li>
+               <li>Discord: Artur Terziyan</li>
+               <li>Email: ararad@rambler.ru</li>
+            </ulstyle=>
+         </section>
+         <section class="section" id="About">
+            <h2 class="section-title">About Me (Summary)</h2>
+            <p>
+               I am a system administrator. <br>
+               For the last 8 years I have been serving servers and workstations that work
+               with data in industrial automation systems. <br>
+               I programmed in Delphi at the University, but after that I
+               didn’t programm. <br>
+               But i want to become programmer now. And i'm learning at the Rolling Scope School for this.
+            </pstyle=>
+         </section>
+         <section class="section" id="Skills">
+            <h2 class="section-title">Skills</h2>
+               <ul>
+                  <li>HTML+CSS (the basics);</li>
+                  <li>JavaScript (the basics);</li>
+               </ul>
+         </section>
+         <section class="section" id="Code">
+            <h2 class="section-title">Code examples</h2>
+            <pre>
+                  let str ="How can mirrors be real if our eyes aren't real"
 
+                  function toJadenCase(str) {
+                     let arrayOfString = str.split(" ")
+      
+                     let word;
+                     let newWord;
+      
+                     for (let i = 0; i < arrayOfString.length; i++) {
+                        word = arrayOfString[i];
+                        word = word.trim();
+                        if (!word) return  word ;
+                           newWord = word[0].toUpperCase() + word.slice(1);
+                           arrayOfString[i] = newWord;
+                        };
+
+                     let newStr = arrayOfString.join(" ");
+      
+                     return newStr;
+                  };
+                  console.log(toJadenCase(str));
+               </pre>
+            </p>
+         </section>
+         <section class="section" id="Experience">
+            <h2 class="section-title">Experience</h2>
+            <ul>
+                  <li>Learn.JavaScript.ru;</li>
+                  <li>Code-basics.com;</li>
+                  <li>MDN Web Docs;</li>
+                  <li>Studying at Rolling Scopes School;</li>
+            </ulstyle=>
+         </section>
+         <section class="section" id="Education">
+            <h2 class="section-title">Education</h2>
+            <p>
+               2000-2005 Moscow State Social University, student.
+            </pstyle=>
+            <ul>
+               <li>My major is System engineer</li>
+            </ulstyle=>
+         </section>
+         <section class="section" id="English">
+            <h2 class="section-title">English</h2>
+            <p>
+               My English level is A1-A2 at the moment. <br>
+               But I hope to raise it above A2 in the near future. <br>
+               I study on online platforms and try to read articles in English.
+            </p>
+         </section>
       </div>
    </main>
    <footer>
@@ -35,4 +125,5 @@
       </div>
    </footer>
 </body>
+
 </html>
