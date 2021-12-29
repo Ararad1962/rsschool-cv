@@ -34,15 +34,14 @@
       </div>
    </header>
    <main>
-
       <div class="container main-container">
          <section class="section section-container">
             <p class="photo">
                <img class="photo-img" src="./assets/img/photoPortfolio.JPG" alt="avatar">
             </p>
-            <h1 class="main-title">
+            <h2 class="main-title">
                Artur Terziyan
-            </h1>
+            </h2>
          </section>
          <section class="section">
 
@@ -76,7 +75,8 @@
          </section>
          <section class="section" id="Code">
             <h2 class="section-title">Code examples</h2>
-            <pre class="code">
+            <pre>
+               <code class="code">
       let str ="How can mirrors be real if our eyes aren't real"
 
       function toJadenCase(str) {
@@ -85,7 +85,7 @@
          let word;
          let newWord;
       
-         for (let i = 0; i<arrayOfString.length; i++) {
+         for (let i = 0; i < arrayOfString.length; i++) {
             word = arrayOfString[i];
             word = word.trim();
             if (!word) return  word ;
@@ -93,12 +93,13 @@
                arrayOfString[i] = newWord;
             };
 
-            let newStr = arrayOfString.join(" ");
+         let newStr = arrayOfString.join(" ");
       
-            return newStr;
-         };
-         console.log(toJadenCase(str));
-               </pre>
+         return newStr;
+      };
+      console.log(toJadenCase(str));
+               </code>
+            </pre>
          </section>
          <section class="section" id="Experience">
             <h2 class="section-title">Experience</h2>
@@ -137,7 +138,7 @@
             <p><a href="https://github.com/Ararad1962">Link to my GitHub</a></p>
          </div>
          <div class="footer-section">
-            <p>&copy2021</p>
+            <p>&copy; 2021</p>
          </div>
       </div>
    </footer>
