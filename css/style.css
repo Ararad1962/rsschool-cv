@@ -1,30 +1,10 @@
-@font-face {
-  font-family: 'Spectral';
-  src: url(../assets/fonts/Spectral/Spectral-Bold.ttf);
-}
-@font-face {
-  font-family: 'Spectral';
-  src: url(../assets/fonts/Spectral/Spectral-BoldItalic.ttf);
-}
-@font-face {
-  font-family: 'Spectral';
-  src: url(../assets/fonts/Spectral/Spectral-Italic.ttf);
-}
-@font-face {
-  font-family: 'Source Sans 3';
-  src: url(../assets/fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf);
-}
-@font-face {
-  font-family: 'Source Sans 3';
-  src: url(../assets/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf);
-}
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Source Sans 3';
+  font-family: 'Source Sans 3', sans-serif;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -57,7 +37,8 @@ header {
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
-  font-weight: 400;
+  font-weight: 500;
+  font-style: italic;
   text-decoration: none;
   color: rgb(204, 159, 100);
 
@@ -75,7 +56,7 @@ main {
 }
 .main-title {
   margin: 0 0.5em 0 0.5em;
-  font-family: 'Source Sans 3';
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 2em;
   letter-spacing: 2px;
 }
@@ -113,6 +94,7 @@ main {
   font-family: 'Source Sans 3';
   font-weight: 700;
   font-size: 1.4em;
+  font-style: italic;
   letter-spacing: 2px;
   text-decoration: underline;
   color: rgb(84, 27, 92);
