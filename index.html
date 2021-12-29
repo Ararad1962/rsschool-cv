@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet">
+
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="icon" href="https://rs.school/images/rs_school_js.svg">
+   <title>cv</title>
+</head>
+
+<body>
+   <header>
+      <div class="container">
+         <nav class="nav">
+            <ul class="nav-list">
+               <li class="nav-item">
+                  <a href="#Contacts" class="nav-link">Contacts</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#About" class="nav-link">About</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#Skills" class="nav-link">Skills</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#Code" class="nav-link">Code</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#Experience" class="nav-link">Experience</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#Education" class="nav-link">Education</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#English" class="nav-link">English</a>
+               </li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+   <main>
+      <div class="container main-container">
+         <div class="section section-container">
+            <p class="photo">
+               <img class="photo-img" src="./assets/img/photoPortfolio.JPG" alt="avatar">
+            </p>
+            <h1 class="main-title">
+               Artur Terziyan
+            </h1>
+         </div>
+         <section class="section">
+            <h2 class="hidden-text">Plase for new content</h2>
+         </section>
+         <section class="section" id="Contacts">
+            <h2 class="section-title">My contacts for communication</h2>
+            <ul class="content">
+               <li>GitHub:
+                  <a href="https://github.com/Ararad1962">Ararad1962</a>
+               </li>
+               <li>Discord: Artur Terziyan</li>
+               <li>Email: ararad@rambler.ru</li>
+            </ul>
+         </section>
+         <section class="section" id="About">
+            <h2 class="section-title">About Me (Summary)</h2>
+            <p class="content">
+               I am a system administrator. <br>
+               For the last 8 years I have been serving servers and workstations<br>
+               that work with data in industrial automation systems. <br>
+               I programmed in Delphi at the University, <br>
+               but after that I didn’t programm. <br>
+               But i want to become programmer now. <br>
+               And i'm learning at the <a href="https://rs.school/js-stage0/">Rolling Scope School</a> for this.
+            </p>
+         </section>
+         <section class="section" id="Skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="content">
+               <li>HTML+CSS (the basics);</li>
+               <li>JavaScript (the basics);</li>
+            </ul>
+         </section>
+         <section class="section" id="Code">
+            <h2 class="section-title">Code examples</h2>
+            <pre class="code">
+               <code>
+      let str ="How can mirrors be real if our eyes aren't real"
+
+      function toJadenCase(str) {
+         let arrayOfString = str.split(" ")
+      
+         let word;
+         let newWord;
+      
+         for (let i = 0; i &lt; arrayOfString.length; i++) {
+            word = arrayOfString[i];
+            word = word.trim();
+            if (!word) return  word ;
+               newWord = word[0].toUpperCase() + word.slice(1);
+               arrayOfString[i] = newWord;
+            };
+
+         let newStr = arrayOfString.join(" ");
+      
+         return newStr;
+      };
+      console.log(toJadenCase(str));
+               </code>
+            </pre>
+         </section>
+         <section class="section" id="Experience">
+            <h2 class="section-title">Experience</h2>
+            <ul class="content">
+               <li>Learn.JavaScript.ru;</li>
+               <li>Code-basics.com;</li>
+               <li>MDN Web Docs;</li>
+               <li>Studying at the <a href="https://rs.school/js-stage0/">Rolling Scope School</a>;</li>
+            </ul>
+         </section>
+         <section class="section" id="Education">
+            <h2 class="section-title">Education</h2>
+            <p class="content">
+               2000-2005 Moscow State Social University, student.
+            </p>
+            <ul class="content">
+               <li>My major is System engineer</li>
+            </ul>
+         </section>
+         <section class="section" id="English">
+            <h2 class="section-title">English</h2>
+            <p class="content">
+               My English level is A1-A2 at the moment. <br>
+               But I hope to raise it above A2 in the near future. <br>
+               I study on online platforms and try to read articles in English.
+            </p>
+         </section>
+      </div>
+   </main>
+   <footer>
+      <div class="container footer-container">
+         <div class="footer-section">
+            <p>
+               <a href="https://rs.school/js-stage0/">
+                  <img src="https://rs.school/images/rs_school_js.svg" alt="icon">
+               </a>
+            </p>
+         </div>
+         <div class="footer-section">
+            <p>
+               <a href="https://github.com/Ararad1962">Link to my GitHub</a>
+            </p>
+         </div>
+         <div class="footer-section">
+            <p>&copy; 2021</p>
+         </div>
+      </div>
+   </footer>
+</body>
+
+</html>
