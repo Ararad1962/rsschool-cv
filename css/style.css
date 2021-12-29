@@ -40,9 +40,7 @@ body {
 /*=========================================*/
 header {
   margin: 0;
-  padding: 0;
-  border: 1px solid #000000;
-    
+  padding: 0;    
 }
 .nav {
   background: #f8f6fc;
@@ -71,7 +69,6 @@ header {
 /*=====================================================*/
 main {
   margin: 0;
-  border: 1px solid #000000;
   min-height: 500px;
   
   font-family: 'Ubuntu', sans-serif;
@@ -89,7 +86,7 @@ main {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  border: 1px dotted #ff0000;
+  border: 1px dashed #fcd6a4;
   background: #f6fcfa;
 }
 .section {
@@ -135,8 +132,21 @@ main {
   width: 200px;
 }
 /*======================================================*/
+.footer-container {
+  display: flex;
+  background: #f8f6fc;
+}
+.footer-section {
+  margin: auto;
+  width: 33.33%;
+}
+.footer-section p {
+  text-align: center;
+  margin: auto;
+}
+.footer-section img{
+  height: 50px;
+}
 footer {
   margin: 0;
-  border: 1px solid #000000;
-  min-height: 100px;
 } 
