@@ -52,7 +52,7 @@ header {
   flex-wrap: wrap;
   list-style: none;
 
-  margin: 0;
+  margin: auto;
 }
 .nav-link {
   padding: 0 20px;
@@ -134,15 +134,15 @@ main {
 /*======================================================*/
 .footer-container {
   display: flex;
+  justify-content: space-between;
   background: #f8f6fc;
 }
 .footer-section {
   margin: auto;
-  width: 33.33%;
+ 
 }
 .footer-section p {
   text-align: center;
-  margin: auto;
 }
 .footer-section img{
   height: 50px;
