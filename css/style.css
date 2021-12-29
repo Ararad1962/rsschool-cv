@@ -150,3 +150,8 @@ main {
 footer {
   margin: 0;
 } 
+.hidden-text {
+  position: relative;
+  top: -9999%;
+  color: rgba(red, green, blue, 1);
+}
